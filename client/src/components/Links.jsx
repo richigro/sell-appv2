@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Links.css';
 
 const Links = function() {
   const [links, setLinks] = useState(["google.com","facebook.com","instagram.com","nike.com"]);
