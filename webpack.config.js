@@ -13,12 +13,7 @@ module.exports = {
     filename: 'bundle.js',
     path: DIST_DIR,
   },
-  //dev server used for easier development so you wont have to reload
-  // page everytime there is a change
-  // devServer: {
-  //   port: 8080,
-
-  // },
+  
 
   //this is what compiles my react code from the src directory
   //and also es6 code, presets are contained within the .babelrc file
